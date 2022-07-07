@@ -27,9 +27,9 @@
 
 ### 1. [[BOJ] 14891 톱니바퀴](https://www.acmicpc.net/problem/14891)
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
-### 2. [[BOJ] 17141 연구소 2](https://programmers.co.kr/learn/courses/30/lessons/17141)
+### 2. [[BOJ] 17141 연구소 2]((https://www.acmicpc.net/problem/17141)
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
-### 3. [[BOJ] 17298 오큰수](https://programmers.co.kr/learn/courses/30/lessons/17298)
+### 3. [[BOJ] 17298 오큰수]((https://www.acmicpc.net/problem/17298)
 * 이번 주 유형 문제
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
 
