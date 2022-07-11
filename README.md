@@ -33,6 +33,16 @@
 * 이번 주 유형 문제
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
 
+<summary>1주차 [<strong>문자열</strong>] - 22.07.18. 월요일</summary>
+
+### 1. [[BOJ] 2174 로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+### 2. [[BOJ] 2638 치즈](https://www.acmicpc.net/problem/2638)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 3. [[BOJ] 5430 AC](https://www.acmicpc.net/problem/5430)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+* 번외) [기출 문자열 문제](http://colorscripter.com/s/gMOg1jR)
 </details>
 
 
