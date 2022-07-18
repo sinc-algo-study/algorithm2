@@ -5,12 +5,10 @@ from collections import deque
 
 def rotatingEach(arr):
     for n, r in arr:
-        #print(n, r, chains[n])
         if r==-1:
             chains[n] = chains[n][1:]+chains[n][:1]
         else:
             chains[n] = chains[n][-1:]+chains[n][:-1]
-        #print(chains[n])
 
 
 def rotating():
@@ -20,6 +18,8 @@ def rotating():
         toRotate = [(y, rot)]  # 회전할 톱니바퀴 종류와 회전방향
         done = [(y, 2, rot), (y, 6, rot)]
         que = deque(done)
+        que.rotate(1)
+        que.rotate(-1)
         while que:
             y, x, nowRot = que.popleft()
             dy, dx = dirs[x]
