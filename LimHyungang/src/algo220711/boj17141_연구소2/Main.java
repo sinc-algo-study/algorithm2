@@ -28,7 +28,7 @@ import java.util.StringTokenizer;
  *         -> dfs로 하면 백트래킹으로 다시 돌려놓으면
  *            초기 배열 원복이 가능하지만 bfs라서 까다로울 듯
  *         -> 그냥 초기화 할 필요 없이 클론 배열을 하나 새로 만들어서 거기에 놓자
- *         -> temp 가 없으면? 실제로 바이러스를 놓은 좌표와 바이러스 후보 좌표를 구분할 수 없음
+ *         -> temp 가 없으면? 실제로 바이러스를 놓은 좌표와 바이러스 후보 좌표를 "나는" 구분할 수 없음
  */
 
 class Pair {
@@ -62,7 +62,7 @@ public class Main {
         int cnt = 0;
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < N; j++) {
-                if(temp[i][j] == 0) cnt += 1;
+                cnt += 1;
                 if(cnt > M) return false;
             }
         }
@@ -117,6 +117,9 @@ public class Main {
     public static void comb(int dept, int idx) {  // make combination
         if(dept == M) {  // 바이러스 M개 다 놓았으면 BFS 실시
             int max = bfs();  // 이 조합을 탐색했을 때 바이러스가 가장 멀리 가는 시간
+
+
+
             if(isFinish()) {
                 ANS = Math.min(ANS, max);  // 조합들 간의 최소 값을 찾는다
             }
@@ -125,7 +128,7 @@ public class Main {
         for(int i = idx + 1; i < viruses.size(); i++) {
             if(vCheck[i]) continue;
             vCheck[i] = true;
-            comb(dept + 1, i);
+            comb(dept + 1, i + 1);
             vCheck[i] = false;
         }
     }
