@@ -53,7 +53,7 @@
 ### 1. [[BOJ] 14502 연구소](https://www.acmicpc.net/problem/14502)
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
 ### 2. [[BOJ] 14503 로봇 청소기](https://www.acmicpc.net/problem/14503)
-* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
 ### 3. [[BOJ] 22868 산책(small)](https://www.acmicpc.net/problem/22868)
 * 이번 주 유형 문제
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
