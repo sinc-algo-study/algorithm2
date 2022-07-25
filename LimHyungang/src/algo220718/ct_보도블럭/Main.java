@@ -22,12 +22,74 @@ public class Main {
     }
 
     public static boolean isPossible(int[] arr, int turn, int row) {
-        if(check[turn][row]) return false;
+        if(check[turn][row]) {
+            return false;
+        }else {
+            check[turn][row] = true;
+        }
 
-        
+        boolean down = false;
+        int cnt = 1;
+        int current = arr[0];
 
+        for(int i = 1; i < arr.length; i++) {
+            if(Math.abs(current - arr[i]) > 1) {
+                return false;
+            }
 
-        return true;
+            /**
+             * 세 가지 경우로 나눈다
+             *
+             * 1. current > arr[i]
+             * 2. current == arr[i]
+             * 3. current < arr[i]
+             *
+             * when 1 -> down 가능 여부 검사 시작 (현재 down 검사 중인지 판단할 boolean 변수 필요)
+             *        -> L을 채우기 전에 또다시 케이스1 나오면 return false
+             *
+             * when 2 -> flat cnt
+             *        -> 이번 칸이 합해지면서 케이스1 조건 검사 완료 가능한지 여부 확인
+             *
+             * when 3 -> up 가능 여부 검사 (지금까지 쌓아온 flat cnt 사용)
+             */
+
+            if(current > arr[i]) {
+                if(down) {  // 아직 down 못 끝냈는데 또 down 만남 -> false
+                    return false;
+                }else {
+                    down = true;
+                    current = arr[i];
+                    cnt = 1;
+                }
+                if(cnt == L) {  // L == 1 일 떄, down 바로 판별 가능
+                    current = arr[i];
+                    down = false;
+                    cnt = 0;  // 현재 칸을 소비했으므로 cnt == 0으로 초기화
+                }
+
+            }else if(current < arr[i]) {  // 오르막은 항상 바로 판별 가능
+                if(cnt < L) {
+                    return false;
+                }else {
+                    current = arr[i];
+                    cnt = 1;
+                }
+
+            }else if(current == arr[i]) {
+                cnt += 1;
+                if(down && cnt == L) {
+                    current = arr[i];
+                    down = false;
+                    cnt = 0;
+                }
+            }
+        }
+
+        if(down) {  // 더이상 검사할 칸 없는데도 down 검사중 -> false
+            return false;
+        }else {
+            return true;
+        }
     }
 
     public static void process() {
