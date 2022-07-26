@@ -62,11 +62,11 @@
 <details markdown="4">
 <summary>3주차 [<strong>이분 탐색</strong>] - 22.08.01. 월요일</summary>
 
-### 1. [[CT] 술래잡기]([https://www.acmicpc.net/problem/14502](https://www.codetree.ai/frequent-problems/hide-and-seek/description))
+### 1. [[CT] 술래잡기](https://www.codetree.ai/frequent-problems/hide-and-seek/description)
 * 어려움
-### 2. [[CT] 예술성]([https://www.acmicpc.net/problem/14503](https://www.codetree.ai/frequent-problems/artistry/description))
+### 2. [[CT] 예술성](https://www.codetree.ai/frequent-problems/artistry/description)
 * 보통
-### 3. [[BOJ] 2470 두 용액]([https://www.acmicpc.net/problem/22868](https://www.acmicpc.net/problem/2470))
+### 3. [[BOJ] 2470 두 용액](https://www.acmicpc.net/problem/2470)
 * 이번 주 유형 문제
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
 </details>
