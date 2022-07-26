@@ -48,13 +48,25 @@
 </details>
 
 <details markdown="3">
-<summary>2주차 [<strong>DFS/BFS</strong>] - 22.07.25. 화요일</summary>
+<summary>2주차 [<strong>DFS/BFS</strong>] - 22.07.25. 월요일</summary>
 
 ### 1. [[BOJ] 14502 연구소](https://www.acmicpc.net/problem/14502)
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
 ### 2. [[BOJ] 14503 로봇 청소기](https://www.acmicpc.net/problem/14503)
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
 ### 3. [[BOJ] 22868 산책(small)](https://www.acmicpc.net/problem/22868)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
+</details>
+
+<details markdown="4">
+<summary>3주차 [<strong>이분 탐색</strong>] - 22.08.01. 월요일</summary>
+
+### 1. [[CT] 술래잡기]([https://www.acmicpc.net/problem/14502](https://www.codetree.ai/frequent-problems/hide-and-seek/description))
+* 어려움
+### 2. [[CT] 예술성]([https://www.acmicpc.net/problem/14503](https://www.codetree.ai/frequent-problems/artistry/description))
+* 보통
+### 3. [[BOJ] 2470 두 용액]([https://www.acmicpc.net/problem/22868](https://www.acmicpc.net/problem/2470))
 * 이번 주 유형 문제
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
 </details>
