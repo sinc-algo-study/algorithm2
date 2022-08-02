@@ -71,6 +71,23 @@
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
 </details>
 
+<details markdown="5">
+<summary>4주차 [<strong>최단 거리</strong>] - 22.08.08. 월요일</summary>
+
+### 1. [[BOJ] 16235 나무 재테크](https://www.acmicpc.net/problem/16235)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
+### 2. [[BOJ] 17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 3. [[BOJ] 12851 숨바꼭질 2](https://www.acmicpc.net/problem/12851)
+* 이번 주 유형 문제 1
+* 간선 간 가중치 X
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 4. [[BOJ] 13549 숨바꼭질 3](https://www.acmicpc.net/problem/13549)
+* 이번 주 유형 문제 2
+* 간선 간 가중치 O
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
 ## ✅ Pull Requests 하는 방법
 
 1. 이 repository를 본인의 github repository로 Fork합니다.
