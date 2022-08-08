@@ -53,12 +53,12 @@ public class Main {
     // + 각 위치가 어느 그룹에 속하는지 표시
     public static int dfs1(int r, int c, int groupNum, boolean[][] check) {
         int cnt = 1;
-        for(int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) {
             int nr = r + rArr[i];
             int nc = c + cArr[i];
 
-            if(!(-1 < nr && nr < N && -1 < nc && nc < N)) continue;
-            if(check[nr][nc] || map[r][c] != map[nr][nc]) continue;
+            if (!(-1 < nr && nr < N && -1 < nc && nc < N)) continue;
+            if (check[nr][nc] || map[r][c] != map[nr][nc]) continue;
 
             check[nr][nc] = true;
             groupMap[nr][nc] = groupNum;
@@ -73,9 +73,9 @@ public class Main {
         groupMap = new int[N][N];
 
         groupNum = 0;
-        for(int i = 0; i < N; i++) {
-            for(int j = 0; j < N; j++) {
-                if(check[i][j]) continue;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (check[i][j]) continue;
 
                 check[i][j] = true;
                 groupMap[i][j] = groupNum;
@@ -90,17 +90,17 @@ public class Main {
 
     // 각 그룹들에 대한 인접 그룹과 맞닿은 변의 개수를 구하는 dfs
     public static void dfs2(int r, int c, boolean[][] check) {
-        for(int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) {
             int nr = r + rArr[i];
             int nc = c + cArr[i];
 
-            if(!(-1 < nr && nr < N && -1 < nc && nc < N)) continue;
+            if (!(-1 < nr && nr < N && -1 < nc && nc < N)) continue;
 
-            if(groupMap[r][c] != groupMap[nr][nc]) {
+            if (groupMap[r][c] != groupMap[nr][nc]) {
                 // 현재 그룹과 groupMap[nr][nc] 그룹의 인접한 변의 개수 += 1
                 groups.get(groupMap[r][c]).arr[groupMap[nr][nc]] += 1;
-            }else {
-                if(check[nr][nc]) continue;
+            } else {
+                if (check[nr][nc]) continue;
                 check[nr][nc] = true;
                 dfs2(nr, nc, check);
             }
@@ -108,7 +108,7 @@ public class Main {
     }
 
     public static void calcAdjacent() {
-        for(Group group : groups) {
+        for (Group group : groups) {
             group.arr = new int[groupNum];
         }
 
@@ -116,9 +116,9 @@ public class Main {
 
         // (1,2) 를 구하면 자동으로 (2,1) 도 결정된다
         // 근데 이거까지 고려하자니 너무 복잡. 어차피 N이 작으니까 걍 한번씩 전부 구하자
-        for(int i = 0; i < N; i++) {
-            for(int j = 0; j < N; j++) {
-                if(check[i][j]) continue;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (check[i][j]) continue;
 
                 check[i][j] = true;
                 dfs2(i, j, check);
@@ -133,11 +133,11 @@ public class Main {
         calcAdjacent();
 
         boolean[][] gCheck = new boolean[groups.size()][groups.size()];
-        for(int i = 0; i < groupNum; i++) {
+        for (int i = 0; i < groupNum; i++) {
             Group g1 = groups.get(i);
 
-            for(int j = 0; j < groupNum; j++) {
-                if(i == j || gCheck[i][j]) continue;
+            for (int j = 0; j < groupNum; j++) {
+                if (i == j || gCheck[i][j]) continue;
 
                 gCheck[i][j] = true;  // (1,2)를 봤으면
                 gCheck[j][i] = true;  // (2,1)도 본 것이다
@@ -155,23 +155,23 @@ public class Main {
         // 인덱스 수식을 못 짜겠다..
 
         int[][] sub = new int[size][size];
-        for(int i = r; i < r + size; i++) {
-            for(int j = c; j < c + size; j++) {
+        for (int i = r; i < r + size; i++) {
+            for (int j = c; j < c + size; j++) {
                 sub[i - r][j - c] = map[i][j];
             }
         }
 
         // sub 를 돌리고
         int[][] subTemp = new int[size][size];
-        for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size; j++) {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
                 subTemp[j][size - i - 1] = sub[i][j];
             }
         }
 
         // 그걸 temp 에 넣는다
-        for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size; j++) {
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
                 temp[i + r][j + c] = subTemp[i][j];
             }
         }
@@ -179,8 +179,8 @@ public class Main {
 
     public static void crossRotate() {
         // 이름은 십자 회전이지만 사실은 그냥 통째로 돌리는 것
-        for(int i = 0; i < N; i++) {
-            for(int j = 0; j < N; j++) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
                 temp[N - j - 1][i] = map[i][j];
             }
         }
@@ -204,7 +204,7 @@ public class Main {
 
     public static void process() {
         ANS = getPoint();
-        for(int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) {
             rotate();
             ANS += getPoint();
         }
@@ -216,9 +216,9 @@ public class Main {
 
         N = Integer.parseInt(st.nextToken());
         map = new int[N][N];
-        for(int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            for(int j = 0; j < N; j++) {
+            for (int j = 0; j < N; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
         }

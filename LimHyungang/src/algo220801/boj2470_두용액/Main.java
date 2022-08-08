@@ -11,9 +11,6 @@ import java.util.StringTokenizer;
  * 일단 이분탐색 해야하니까 정렬?
  *
  * 어떻게 결정문제로 바꿀 것인가?
- * -> 대상 용액과 조합하였을때 가장 0에 가까운 용액은 무엇인가?
- * -> 이걸 N번 반복하면 된다
- * -> N번 반복하며 두 용액을 갱신
  *
  * 그럼 O(N * logN) = 10만 * 20 = 200만
  *
@@ -24,45 +21,6 @@ public class Main {
 
     static int N,   ANS1, ANS2;
     static int[] arr;
-
-//    public static int check(int target, int mid) {
-//        return Math.abs(target + arr[mid]);
-//    }
-//
-//    public static int binarySearch(int idx) {
-//        int min = -1;
-//        int max = N;
-//
-//        /**
-//         * mid 를 갱신하는 조건은?
-//         * -> T, F로 나타낼 수가 없는데 어떻게 min, max 값을 갱신해나가지..?
-//         * 0이 되는 값이 있느냐? 없느냐? 가 아니라 그냥 0에 가장 가깝게 만들 수 있는 값을 찾는건데..
-//         * -> 이분탐색이 아니었다 ㅜㅜ
-//         */
-//
-//        while(min + 1 < max) {
-//            int mid = (min + max) / 2;
-//            if() {
-//
-//            }else {
-//
-//            }
-//        }
-//    }
-//
-//    public static void process() {
-//        Arrays.sort(arr);
-//        for(int i = 0; i < N; i++) {
-//            // 탐색 대상에서 자신(= arr[i])은 제외해야 하는데..
-//            int ansIdx = binarySearch(i);
-//            int sum = arr[i] + arr[ansIdx];
-//            if(ABS > Math.abs(sum)) {
-//                ANS1 = arr[i];
-//                ANS2 = arr[ansIdx];
-//                ABS = Math.abs(sum);
-//            }
-//        }
-//    }
 
     public static void twoPointer() {
         int left = 0;
