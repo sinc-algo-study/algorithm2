@@ -8,6 +8,7 @@ input = sys.stdin.readline
 
 def spread():
     global cnt
+    q = deque(virus)
     while q:
         x, y = q.popleft()
         for i in range(4):
@@ -24,7 +25,7 @@ def spread():
 n, m = map(int, input().split())
 graph = [list(map(int, input().split())) for _ in range(n)]
 blank = []
-virus = deque([])
+virus = []
 
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
@@ -39,7 +40,6 @@ for i in range(n):
 
 for pm in permutations(blank, 3):
     lab = copy.deepcopy(graph)
-    q = copy.deepcopy(virus)
 
     cnt = 0
     for x, y in pm:
