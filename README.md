@@ -88,6 +88,18 @@
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
 </details>
 
+<details markdown="6">
+<summary>5주차 [<strong>다이나믹 프로그래밍</strong>] - 22.08.15. 월요일</summary>
+
+### 1. [[BOJ] 20055 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+### 2. [[BOJ] 17822 원판 돌리기](https://www.acmicpc.net/problem/17822)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
+### 3. [[BOJ] 2240 자두나무](https://www.acmicpc.net/problem/2240)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
 ## ✅ Pull Requests 하는 방법
 
 1. 이 repository를 본인의 github repository로 Fork합니다.
