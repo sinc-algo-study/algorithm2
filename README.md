@@ -89,7 +89,7 @@
 </details>
 
 <details markdown="6">
-<summary>5주차 [<strong>다이나믹 프로그래밍</strong>] - 22.08.15. 월요일</summary>
+<summary>5주차 [<strong>다이나믹 프로그래밍</strong>] - 22.08.16. 화요일</summary>
 
 ### 1. [[BOJ] 20055 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
 * ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
