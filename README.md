@@ -12,17 +12,6 @@
     * 발표는 해당 유형에 대한 설명, 관련 문제들의 접근 방식 등을 설명해주시면 됩니다.
     * 라이브 코딩을 하면서 설명을 할 때에, 코드보다는 `시간 복잡도`, `로직`에 초점을 맞추어 설명하시면 됩니다.
 
-## 🚀 코드트리 캠프 3기
-### 중급 I반
-1. [1일차 (dx, dy 테크닉)](https://youtu.be/6rLAY5sjVDE)
-
-2. [2일차 (Simulation)](https://youtu.be/-yIRPwhxRWE)
-
-### 중급 II반
-1. [1일차 (중급 자료구조)](https://youtu.be/u2o-zrg096s)
-
-2. [2일차 (Prefix Sum, Two Pointer)](https://www.youtube.com/watch?v=7MjvA51HeJA)
-
 ## 📖 참고하면 좋은 사이트
 
 1. https://blog.encrypted.gg/921
