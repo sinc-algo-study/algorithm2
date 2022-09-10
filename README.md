@@ -12,7 +12,6 @@
     * 발표는 해당 유형에 대한 설명, 관련 문제들의 접근 방식 등을 설명해주시면 됩니다.
     * 라이브 코딩을 하면서 설명을 할 때에, 코드보다는 `시간 복잡도`, `로직`에 초점을 맞추어 설명하시면 됩니다.
 
-
 ## 📖 참고하면 좋은 사이트
 
 1. https://blog.encrypted.gg/921
@@ -32,9 +31,84 @@
 ### 3. [[BOJ] 17298 오큰수](https://www.acmicpc.net/problem/17298)
 * 이번 주 유형 문제
 * ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
-
 </details>
 
+<details markdown="2">
+<summary>1주차 [<strong>문자열</strong>] - 22.07.18. 월요일</summary>
+
+### 1. [[BOJ] 2174 로봇 시뮬레이션](https://www.acmicpc.net/problem/2174)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+### 2. [[BOJ] 2638 치즈](https://www.acmicpc.net/problem/2638)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 3. [[BOJ] 5430 AC](https://www.acmicpc.net/problem/5430)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+#### 번외) [L 문자열 문제](http://colorscripter.com/s/gMOg1jR)
+</details>
+
+<details markdown="3">
+<summary>2주차 [<strong>DFS/BFS</strong>] - 22.07.25. 월요일</summary>
+
+### 1. [[BOJ] 14502 연구소](https://www.acmicpc.net/problem/14502)
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 2. [[BOJ] 14503 로봇 청소기](https://www.acmicpc.net/problem/14503)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+### 3. [[BOJ] 22868 산책(small)](https://www.acmicpc.net/problem/22868)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
+<details markdown="4">
+<summary>3주차 [<strong>이분 탐색</strong>] - 22.08.01. 월요일</summary>
+
+### 1. [[CT] 술래잡기](https://www.codetree.ai/frequent-problems/hide-and-seek/description)
+* ![어려움](https://img.shields.io/badge/어려움-red)
+### 2. [[CT] 예술성](https://www.codetree.ai/frequent-problems/artistry/description)
+* ![보통](https://img.shields.io/badge/보통-green)
+### 3. [[BOJ] 2470 두 용액](https://www.acmicpc.net/problem/2470)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
+<details markdown="5">
+<summary>4주차 [<strong>최단 거리</strong>] - 22.08.08. 월요일</summary>
+
+### 1. [[BOJ] 16235 나무 재테크](https://www.acmicpc.net/problem/16235)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
+### 2. [[BOJ] 17140 이차원 배열과 연산](https://www.acmicpc.net/problem/17140)
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 3. [[BOJ] 12851 숨바꼭질 2](https://www.acmicpc.net/problem/12851)
+* 이번 주 유형 문제 1
+* 간선 간 가중치 X
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
+### 4. [[BOJ] 13549 숨바꼭질 3](https://www.acmicpc.net/problem/13549)
+* 이번 주 유형 문제 2
+* 간선 간 가중치 O
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
+<details markdown="6">
+<summary>5주차 [<strong>다이나믹 프로그래밍</strong>] - 22.08.15. 월요일</summary>
+
+### 1. [[BOJ] 20055 컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055)
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+### 2. [[BOJ] 17822 원판 돌리기](https://www.acmicpc.net/problem/17822)
+* ![골드 3](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20III-yellow)
+### 3. [[BOJ] 2240 자두나무](https://www.acmicpc.net/problem/2240)
+* 이번 주 유형 문제
+* ![골드 5](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20V-yellow)
+</details>
+
+<details markdown="7">
+<summary>6주차 [<strong>시뮬레이션</strong>] - 22.09.13 화요일</summary>
+
+### 1. [[BOJ] 17281 ⚾](https://www.acmicpc.net/problem/17281)
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%200IV-yellow)
+### 2. [[BOJ] 17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
+* ![골드 2](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20II-yellow)
+### 3. [[BOJ] 23290 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)
+* ![골드 1](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20I-yellow)
+</details>
 
 ## ✅ Pull Requests 하는 방법
 
