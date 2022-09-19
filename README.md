@@ -103,7 +103,7 @@
 <summary>6주차 [<strong>시뮬레이션</strong>] - 22.09.13 화요일</summary>
 
 ### 1. [[BOJ] 17281 ⚾](https://www.acmicpc.net/problem/17281)
-* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%200IV-yellow)
+* ![골드 4](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20IV-yellow)
 ### 2. [[BOJ] 17825 주사위 윷놀이](https://www.acmicpc.net/problem/17825)
 * ![골드 2](https://img.shields.io/badge/%EB%B0%B1%EC%A4%80-GOLD%20II-yellow)
 ### 3. [[BOJ] 23290 마법사 상어와 복제](https://www.acmicpc.net/problem/23290)
