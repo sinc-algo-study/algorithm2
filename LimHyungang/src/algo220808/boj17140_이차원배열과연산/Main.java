@@ -30,14 +30,11 @@ public class Main {
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(entrySet);  // <num, cnt>
 
         // 기준에 맞춰 정렬 (cnt asc, num asc)
-        list.sort(new Comparator<Map.Entry<Integer, Integer>>() {
-            @Override
-            public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
-                if(!o1.getValue().equals(o2.getValue())) {
-                    return o1.getValue() - o2.getValue();
-                }else {
-                    return o1.getKey() - o2.getKey();
-                }
+        list.sort((o1, o2) -> {
+            if(!o1.getValue().equals(o2.getValue())) {
+                return o1.getValue() - o2.getValue();
+            }else {
+                return o1.getKey() - o2.getKey();
             }
         });
 
