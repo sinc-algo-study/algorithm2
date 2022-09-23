@@ -46,11 +46,11 @@ public class Main {
         temp = new ArrayDeque<>();
         
         while(!deq.isEmpty()) {
-            int robot = deq.pollLast();
-            int next = (robot + 1) % SIZE;
+            int now = deq.pollLast();
+            int next = (now + 1) % SIZE;
             
             if(A[next] <= 0) {  // 더이상 내구도 없음
-                temp.addFirst(robot);
+                temp.addFirst(now);
             }else {
                 // 내 앞에 로봇이 있는지만 검사하면 됨
                 if(temp.isEmpty()) {  // 내 앞에 로봇 없음
@@ -58,7 +58,7 @@ public class Main {
                 }else if(temp.peekFirst() != next) {  // 내 앞에 로봇 없음
                     moveRobot(next);
                 }else if(temp.peekFirst() == next) {  // 내 앞에 로봇 있음
-                    temp.addFirst(robot);  // 그대로 제자리에 남는다.
+                    temp.addFirst(now);  // 그대로 제자리에 남는다.
                 }
             }
         }
